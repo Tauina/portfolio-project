@@ -51,6 +51,10 @@ img {
   margin: 80px auto;
 }
 
+.work-section {
+  margin-bottom: 100px;
+}
+
 .work-section h2 {
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -85,7 +89,6 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
-  margin-bottom: 60px;
 }
 
 @media (max-width: 720px) {
