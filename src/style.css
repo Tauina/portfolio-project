@@ -35,11 +35,47 @@
   line-height: 54px;
 }
 
+.work-title {
+  font-family: var(--text-color);
+  font-size: 18px;
+  text-align: center;
+  line-height: 27px;
+  margin: 80px auto;
+}
+
+.work-section h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.work-section p {
+  font-family: var(--text-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 50px auto;
+}
+
+.second-grid {
+  margin: 65px auto;
+}
+
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   color: white;
+  padding: 18px 30px;
+}
+
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
   padding: 18px 30px;
 }
