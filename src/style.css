@@ -14,8 +14,8 @@ body {
 }
 
 img {
-  width: 400px;
-  margin-bottom: 60px;
+  width: 350px;
+  margin: 30px auto;
 }
 
 .hero h1 {
@@ -63,6 +63,10 @@ img {
   font-size: 16px;
   line-height: 30px;
   margin: 30px auto;
+}
+
+.img-section {
+  background-color: var(--background-color);
 }
 
 .primary-link {
