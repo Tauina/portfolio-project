@@ -109,8 +109,20 @@ img {
   margin: 30px auto;
 }
 
+#contact-section {
+  padding: 160px 20px;
+}
+
+#contact-section h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+
 @media (max-width: 720px) {
-  .hero, #about-section {
+  .hero,
+  #about-section {
     padding: 40px;
   }
 
@@ -138,7 +150,7 @@ img {
     padding: 10px 15px;
     margin-bottom: 30px;
   }
-  
+
   #work-section,
   #about-section {
     text-align: center;
