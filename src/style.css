@@ -17,6 +17,44 @@ img {
   margin: 30px auto;
 }
 
+nav {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px 10px;
+}
+nav p,
+nav ul {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+nav p {
+  font-size: 26px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: auto 15px;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: white;
+}
+
+.container-fluid {
+  padding: 0;
+}
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -109,7 +147,7 @@ img {
 }
 
 #contact-section {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 #contact-section h1 {
@@ -120,7 +158,33 @@ img {
   margin: 85px auto;
 }
 
+#contact-section h4 {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+#contact-section a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+#contact-section a:hover {
+  font-weight: 700;
+}
+
 @media (max-width: 720px) {
+  nav p {
+    display: none;
+  }
+  nav ul {
+    margin: 0 auto;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
   .hero,
   #about-section {
     padding: 40px;
@@ -174,5 +238,14 @@ img {
   #about-section h1 {
     font-size: 42px;
     line-height: 56px;
+  }
+
+  #contact-section {
+    padding: 30px 10px;
+  }
+
+  #contact-section h1 {
+    margin: 70px 20px;
+    text-align: center;
   }
 }
