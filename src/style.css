@@ -1,7 +1,6 @@
 :root {
-  --primary-color: #6aa1dc;
-  --secondary-color: #aecbeb;
-  --background-color: #e1ecf7;
+  --primary-color: #f59070;
+  --secondary-color: #013950;
   --text-color: #07090d;
   --title-color: #07090d;
   --heading-font-family: "Playfair Display", serif;
@@ -32,7 +31,7 @@ img {
 }
 
 .hero {
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -52,11 +51,11 @@ img {
 }
 
 .img-section {
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
 
 .primary-link {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -65,8 +64,8 @@ img {
 }
 
 .secondary-link {
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -127,7 +126,8 @@ img {
     padding: 40px;
   }
 
-  .hero h1, #contact-section h1 {
+  .hero h1,
+  #contact-section h1 {
     font-size: 50px;
     line-height: normal;
   }
