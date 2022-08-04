@@ -20,7 +20,7 @@ img {
 nav {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 nav p,
 nav ul {
@@ -51,6 +51,11 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: white;
+}
+
+nav img {
+  width: 100px;
+  margin: 0;
 }
 
 footer {
@@ -251,6 +256,11 @@ margin-bottom: 50px;
   footer p {
     font-size: 14px;
   }
+
+nav img {
+display: none
+}
+
   .hero,
   #project-section {
     padding: 40px;
